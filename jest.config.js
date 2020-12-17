@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
   projects: [
     '<rootDir>/apps/products',
     '<rootDir>/apps/cart',
@@ -11,3 +11,5 @@ module.exports = {
     '<rootDir>/libs/products/product-detail-page',
   ],
 };
+
+module.exports = config;
